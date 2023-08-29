@@ -1,28 +1,28 @@
 # Vue-Keybindings
 
-[![NPM version](https://img.shields.io/npm/v/vue-keybindings.svg)](https://www.npmjs.com/package/vue-keybindings)
+[![NPM version](https://img.shields.io/npm/v/@grandchef/vue-keybindings.svg)](https://www.npmjs.com/package/@grandchef/vue-keybindings)
 ![VueJS v3 compatible](https://img.shields.io/badge/Vuejs%203-compatible-green.svg)
-<a href="https://www.npmjs.com/package/vue-keybindings"><img src="https://img.shields.io/npm/dt/vue-keybindings.svg" alt="Downloads"></a>
-<a href="https://www.npmjs.com/package/vue-keybindings"><img src="https://img.shields.io/npm/l/vue-keybindings.svg" alt="License"></a>
+<a href="https://www.npmjs.com/package/@grandchef/vue-keybindings"><img src="https://img.shields.io/npm/dt/@grandchef/vue-keybindings.svg" alt="Downloads"></a>
+<a href="https://www.npmjs.com/package/@grandchef/vue-keybindings"><img src="https://img.shields.io/npm/l/@grandchef/vue-keybindings.svg" alt="License"></a>
 
 Keyboard Shortcuts registration and Keybindings management
 
 ## Install
 
 ``` bash
-npm install vue-keybindings --save
+yarn add @grandchef/vue-keybindings
 ```
 
 or
 
 ``` bash
-yarn add vue-keybindings
+npm install @grandchef/vue-keybindings --save
 ```
 
 ## Usage
 #### Configuration
 ``` js
-import VueKeybindings from 'vue-keybindings'
+import VueKeybindings from '@grandchef/vue-keybindings'
 
 Vue.use(VueKeybindings, {
     alias: {
@@ -88,3 +88,4 @@ this.$shortcut.clear()
 ### Derived from
 - Vivify-Ideas/vue-shortcuts
 - MetinSeylan/Vue-Socket.io
+- mazinsw/vue-keybindings

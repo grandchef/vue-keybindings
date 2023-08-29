@@ -1,6 +1,6 @@
 {
-  "name": "vue-keybindings",
-  "version": "2.0.1",
+  "name": "@grandchef/vue-keybindings",
+  "version": "2.0.2",
   "description": "Keyboard Shortcuts registration and Keybindings management",
   "main": "dist/build.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mazinsw/vue-keybindings.git"
+    "url": "git+https://github.com/grandchef/vue-keybindings.git"
   },
   "keywords": [
     "shortcut",
@@ -23,9 +23,9 @@
   "author": "Francimar Alves",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mazinsw/vue-keybindings/issues"
+    "url": "https://github.com/grandchef/vue-keybindings/issues"
   },
-  "homepage": "https://github.com/mazinsw/vue-keybindings#readme",
+  "homepage": "https://github.com/grandchef/vue-keybindings#readme",
   "devDependencies": {
     "babel-cli": "^6.11.4",
     "babel-eslint": "8.2.6",
