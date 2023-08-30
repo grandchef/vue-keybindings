@@ -3,6 +3,9 @@
   "version": "2.0.2",
   "description": "Keyboard Shortcuts registration and Keybindings management",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/build.js",
   "scripts": {
     "lint": "eslint --ext .js, src",
