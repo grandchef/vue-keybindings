@@ -2,6 +2,7 @@
   "name": "@grandchef/vue-keybindings",
   "version": "2.0.2",
   "description": "Keyboard Shortcuts registration and Keybindings management",
+  "private": false,
   "main": "dist/build.js",
   "scripts": {
     "lint": "eslint --ext .js, src",
